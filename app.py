@@ -6,7 +6,6 @@ nltk.download('punkt_tab')
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-gunicorn myapp:app
 import sklearn
 
 ps = PorterStemmer()
